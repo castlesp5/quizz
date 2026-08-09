@@ -26,7 +26,7 @@ pub fn parser(vector: &mut Vec<Question>) -> &mut Vec<Question>{
         }
         let parts: Vec<&str> = line.split(";").collect();
         if parts.len() < 2{
-            eprintln!("ERROR in '{}'", line);
+            eprintln!("ERROR in '{}', you must forgot ';'", line);
             exit(0);
         }
         let squestion = Question{
