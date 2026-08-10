@@ -9,17 +9,14 @@ pub struct Question {
 
 
 pub fn parser(vector: &mut Vec<Question>) -> &mut Vec<Question>{
-    let mut f = match File::open("./questions/quiz.txt") {
-        Ok(f) => f,
-        Err(e) => {
-            println!("{}", e);
-            exit(0);
-        }
-    };
     let mut reader = String::new();
-    if let Err(_) = f.read_to_string(&mut reader) {
-        exit(0);
-    }
+    let _ = File::open("./questions/quiz.txt")
+        .unwrap_or_else(|_| {
+            eprintln!("File was not found");
+            exit(2);
+        })
+    .read_to_string(&mut reader)
+    .expect("Error while reading buffer");
     for line in reader.lines(){
         if line == "" || line.starts_with("#"){
             continue;
@@ -27,7 +24,7 @@ pub fn parser(vector: &mut Vec<Question>) -> &mut Vec<Question>{
         let parts: Vec<&str> = line.split(";").collect();
         if parts.len() < 2{
             eprintln!("ERROR in '{}', you must forgot ';'", line);
-            exit(0);
+            exit(2);
         }
         let squestion = Question{
             question: parts[0].to_string(),
