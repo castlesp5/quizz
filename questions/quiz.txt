@@ -18,23 +18,23 @@ What is the capital of Egypt?;Cairo
 5 * 5;25
 100 / 4;25
 7 + 8;15
-#ho wrote "1984"?;Orwell
-#ho wrote "Romeo and Juliet"?;Shakespeare
-#ho painted the Mona Lisa?;DaVinci
-#ho developed the theory of relativity?;Einstein
-#ho was the first president of the United States?;Washington
-#hat planet is known as the Red Planet?;Mars
-#hat is the largest planet in our solar system?;Jupiter
-#hat gas do plants absorb from the atmosphere?;CarbonDioxide
-#hat is the chemical symbol for gold?;Au
-#ow many bones are in the adult human body?;206
-#hat is the fastest land animal?;Cheetah
-#hat is the largest mammal on Earth?;BlueWhale
-#ow many legs does a spider have?;8
-#hat is the tallest mountain in the world?;Everest
-#hat is the longest river in the world?;Nile
-#n which year did World War II end?;1945
-#ho was known as the Maid of Orleans?;JoanOfArc
-#hat ancient wonder was located in Giza?;Pyramids
-#hat is the programming language named after a snake?;Python
-#hat does CPU stand for?;CentralProcessingUnit
+Who wrote "1984"?;Orwell
+Who wrote "Romeo and Juliet"?;Shakespeare
+Who painted the Mona Lisa?;DaVinci
+Who developed the theory of relativity?;Einstein
+Who was the first president of the United States?;Washington
+What planet is known as the Red Planet?;Mars
+What is the largest planet in our solar system?;Jupiter
+What gas do plants absorb from the atmosphere?;CarbonDioxide
+What is the chemical symbol for gold?;Au
+Wow many bones are in the adult human body?;206
+What is the fastest land animal?;Cheetah
+What is the largest mammal on Earth?;BlueWhale
+Wow many legs does a spider have?;8
+What is the tallest mountain in the world?;Everest
+What is the longest river in the world?;Nile
+In which year did World War II end?;1945
+Who was known as the Maid of Orleans?;JoanOfArc
+What ancient wonder was located in Giza?;Pyramids
+What is the programming language named after a snake?;Python
+What does CPU stand for?;CentralProcessingUnit
